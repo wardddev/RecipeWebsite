@@ -9,3 +9,9 @@ Objectives:
     - Need database to store user data, recipes, userdata?
     - Need ability to print, save to PDF, email
     - Use database and fridge contents to narrow down what recipes are available
+
+List of To Do:
+    - Need to enter into db table and test
+    - Once tested, need to create form:
+        - Needs to be able to be filled out without exp
+        - Needs to be able to scan into do
