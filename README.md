@@ -1,4 +1,9 @@
 # RecipeWebsite
+Structure:
+Front End uses HTML, CSS, JS
+
+Back End uses MySQL, PHP, JS
+
 Objectives:
     - Needs a directory for main pages
     - Needs a directory for recipes
