@@ -2,7 +2,7 @@
 Structure:
 Front End uses HTML, CSS, JS
 
-Back End uses MySQL, PHP, JS
+Back End uses MySQL, PHP (NEED IMPLEMENT), APACHE, JS (node.js)
 
 Objectives:
     - Needs a directory for main pages
