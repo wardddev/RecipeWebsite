@@ -12,30 +12,28 @@
     <body>
         <header>
             <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                <div id="navparent">
+                    <div class="navchild"><a href="index.html">Home</a></div>
+                    <div class="navchild"><a href="about.html">About</a></div>
+                    <div class="navchild"><a href="contact.html">Contact</a></div>
+                </div>
             </nav>
         </header>
         <main>
             <h1>Recipe Book</h1>
             <p>Welcome! This is a collection of recipes.</p>
-            <article>
+            <div id="recipeparent">
                 <h2>Index</h2>
-                <section>
-                    <ul>
-                        <li>
-                            <a href="recipe1.html">Peanut Butter Chocolate Chip Cookies</a>
-                            <img src="..\assets\img\peanutbutterchocolatechipcookies.jpg"
-                            alt="Peanut Butter Chocolate Chip Cookies"
-                            class="recipeimg">
-                        </li>
-                        <li>...</li>
-                    </ul>
-                </section>
-            </article>
+                <div class="recipechild">
+                    <div class="container">
+                        <img src="..\assets\img\peanutbutterchocolatechipcookies.jpg" alt="Peanut Butter Chocolate Chip Cookies" class="img">
+                        <div class="middle">
+                            <div class="text"><a href="recipe1.html">Peanut Butter Cookies</a></div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
         </main>
     </body>
+
 </html>
